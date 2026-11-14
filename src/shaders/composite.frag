@@ -1,0 +1,4 @@
+#version 300 es
+precision highp float;
+out vec4 o;
+void main(){ o = vec4(0.0,0.0,0.0,1.0); }

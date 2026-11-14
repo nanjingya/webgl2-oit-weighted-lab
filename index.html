@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>WebGL2 WBOIT Lab</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header><h1>WebGL2 Weighted OIT</h1><div id="status">boot</div></header>
+  <main>
+    <canvas id="c" width="640" height="360"></canvas>
+    <aside>
+      <label>alpha <input id="alpha" type="range" min="0.05" max="1" step="0.05" value="0.4" /></label>
+      <label>layers <input id="layers" type="range" min="1" max="8" step="1" value="3" /></label>
+      <pre id="stats">{}</pre>
+    </aside>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
